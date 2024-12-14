@@ -1,6 +1,6 @@
 #title {
     background-color: burlywood;
-    padding: 30px 0;
+    
 }
 
 h1 {
@@ -13,4 +13,6 @@ h1 {
 button {
     padding: 10px 20px;
 }
-
+.container-fluid{
+    padding: 3% 15%;
+}
