@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif; /* Set Montserrat as the default font */
+    font-family: 'Montserrat', sans-serif;
+    /* Set Montserrat as the default font */
     margin: 0;
     padding: 0;
 }
@@ -10,24 +11,36 @@ body {
 /* Title section styling */
 #title {
     background-color: #D91656;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
 }
 
 /* Headings */
 h1 {
-    font-family: 'Montserrat', sans-serif; /* Explicitly apply Montserrat to <h1> */
-    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    /* Explicitly apply Montserrat to <h1> */
+    font-size: 3.5rem;
     line-height: 1.5;
-    margin-bottom: 20px;  /* Maintain the margin */
+    margin-bottom: 20px;
+    /* Maintain the margin */
+}
+
+h3{
+    font-family: 'Montserrat-bold';
+   
+}
+p{
+    color: #8f8f8f;
 }
 
 /* Buttons */
 button {
-    font-family: 'Montserrat', sans-serif; /* Apply Montserrat to buttons */
+    font-family: 'Montserrat', sans-serif;
+    /* Apply Montserrat to buttons */
     padding: 10px 20px;
-    font-size: 1rem; /* Add consistent font size */
-   
+    font-size: 1rem;
+    /* Add consistent font size */
+
 }
 
 /* Fluid container */
@@ -35,28 +48,45 @@ button {
     padding: 3% 15%;
 }
 
-.navbar{
-    padding: 0 0 4.5rem ;
-}
-.navbar-brand {
-    font-family: 'Ubuntu', sans-serif; /* Use the Ubuntu font */
-    font-size: 2.5rem; /* Set font size */
-    font-weight: 1700; /* Bold (maximum supported weight) */
+.navbar {
+    padding: 0 0 4.5rem;
 }
 
-.nav-item{
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    /* Use the Ubuntu font */
+    font-size: 2.5rem;
+    /* Set font size */
+    font-weight: 1700;
+    /* Bold (maximum supported weight) */
+}
+
+.nav-item {
     padding: 0 18px;
 
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat';
 
 }
-.download-button{
+
+.download-button {
     margin: 5% 3% 5% 0;
 }
 
-.title-image{
+.title-image {
     width: 60%;
+    transform: rotate(12deg);
+}
+
+#features {
+    padding: 7% 15%;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
