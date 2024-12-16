@@ -1,18 +1,33 @@
-#title {
-    background-color: gray;
-    
+/* Include Montserrat globally */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Set Montserrat as the default font */
+    margin: 0;
+    padding: 0;
 }
 
+/* Title section styling */
+#title {
+    background-color: #D91656;
+}
+
+/* Headings */
 h1 {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Explicitly apply Montserrat to <h1> */
     font-size: 3rem;
     line-height: 1.5;
-    margin-bottom: 20px;  /* Added bottom margin */
+    margin-bottom: 20px;  /* Maintain the margin */
 }
 
+/* Buttons */
 button {
+    font-family: 'Montserrat', sans-serif; /* Apply Montserrat to buttons */
     padding: 10px 20px;
+    font-size: 1rem; /* Add consistent font size */
 }
-.container-fluid{
+
+/* Fluid container */
+.container-fluid {
     padding: 3% 15%;
 }
