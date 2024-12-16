@@ -1,0 +1,26 @@
+ /* Custom background styling */
+ body {
+    background-color: #f8f9fa; /* Light gray background for the page */
+}
+
+#testimonial-carousel {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    padding: 20px; /* Padding around the carousel */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Carousel item styling */
+.carousel-item {
+    text-align: center; /* Center content */
+    height: 400px; /* Fixed height */
+}
+
+.carousel-item img {
+    max-height: 100%; /* Ensure the image stays within bounds */
+    object-fit: cover; /* Ensures images scale properly */
+}
+#testimonial-carousel {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px;
+    border-radius: 10px;
+}
