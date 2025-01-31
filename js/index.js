@@ -10,3 +10,7 @@
 // non blocking  code one is not waiting for the completion of the code to be finished 
 
 
+// promise key or high priority key
+// class stack 
+//settimeout functioon call from the api
+//function timeout 
