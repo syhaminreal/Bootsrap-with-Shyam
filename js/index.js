@@ -14,3 +14,6 @@
 // class stack 
 //settimeout functioon call from the api
 //function timeout 
+
+// async await or promises  three ststes are pending fulfilled and rejected
+
