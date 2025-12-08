@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Code with sam_reed-Monkey</h1>
+
+    <!-- Correct button -->
+    <button id="stop">Stop</button>
+
+    <script>
+
+        // Function to change text
+        const changeText = function () {
+            document.querySelector('h1').innerHTML = "Best Programmer";
+        };
+
+        // Call changeText after 2 seconds
+        const timer = setTimeout(changeText, 2000);
+
+        // Stop button cancels the timeout
+        document.getElementById("stop").addEventListener("click", function () {
+            clearTimeout(timer);
+            console.log("Text change stopped!");
+        });
+
+    </script>
+</body>
+</html>

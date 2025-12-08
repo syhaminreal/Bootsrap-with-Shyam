@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interval Example</title>
+</head>
+<body>
+    <h1>Code with sam_reed-Monkey</h1>
+
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+        let intervalId; // store interval ID to stop it
+
+        // Function to log date and update h1
+        function sayDate() {
+            const now = new Date();
+            console.log("Hitesh", now.toLocaleTimeString());
+            document.querySelector("h1").innerText = "Time: " + now.toLocaleTimeString();
+        }
+
+        // Start button
+        document.getElementById("start").addEventListener("click", function() {
+            // Prevent multiple intervals
+            if (!intervalId) {
+                intervalId = setInterval(sayDate, 1000); // run every 1 second
+            }
+        });
+
+        // Stop button
+        document.getElementById("stop").addEventListener("click", function() {
+            clearInterval(intervalId);
+            intervalId = null; // reset interval ID
+            console.log("Interval stopped!");
+        });
+    </script>
+</body>
+</html>
