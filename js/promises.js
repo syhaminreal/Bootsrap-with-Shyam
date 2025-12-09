@@ -102,6 +102,29 @@ async function consumePromiseFive() {
   } catch (error) {
     console.log(error)
   }
+
 }
 
 consumePromiseFive();
+// async function getAllUsers() {
+//     try {
+//         const response = await fetch("https://your-api-url.com"); 
+//         const data = await response.json();
+//         console.log(data);
+//     } catch (error) {
+//         console.log("E:", error);
+//     }
+// }
+
+// getAllUsers();
+
+fetch('https://example.com/api') 
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        console.log(data);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
